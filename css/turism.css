@@ -1,0 +1,9 @@
+body{
+    background-color:#DFD3C3;
+    font-family: 'Garamond', sans-serif;  
+}
+ th, td {
+    border: 2px solid #85586F;
+    width: 15vh;
+  }
+   
