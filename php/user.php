@@ -31,7 +31,7 @@ function filterTable($query){
 
     <link rel="stylesheet" href="../css/turism.css">
 </head>
-<body style="background-image:url(../pictures/admin.jpg); font-family: 'Garamond', sans-serif; ">
+<body style="background-image:url(../pictures/admin.jpg); font-family: 'Garamond', sans-serif;overflow:hidden; ">
 
 <div  class="container"  >
     <h4 style="color:#85586F;font-size:2vh;">Instrument TIC In Turism Folosind Sistemul de Recomandare</h4>
@@ -41,6 +41,8 @@ function filterTable($query){
 
 <div class="admin_logout">
 <a style=" position:relative; top:-5vh;left:180vh;color:#85586F;text-decoration:none; text-shadow: 2px 2px #F8EDE3;font-size:3vh;"href="../php/homePage.php"><i><b>Logout</i></b></a>
+<a style=" position:relative; top:0;left:172vh;color:#85586F;text-decoration:none; text-shadow: 2px 2px #F8EDE3;font-size:3vh;"href="../php/user_price.php"><i><b>Price list</i></b></a>
+<a style=" position:relative; top:5vh;left:160vh;color:#85586F;text-decoration:none; text-shadow: 2px 2px #F8EDE3;font-size:3vh;"href="../php/user_museum.php"><i><b>Museum Price list</i></b></a>
 </div>
 
    <form action="../php/user.php" method="post">

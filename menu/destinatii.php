@@ -51,7 +51,7 @@
             <td style='position:relative;left:8vh;'>$row[tip_zbor]</td>
             <td style='position:relative;left:10vh;'>
                 <a style='color:#85586F;background-color:#F8EDE3;text-decoration:none;font-weight:bold;' class= 'btn btn-primary  btn-sm' href='../php/edit_destinatii.php?id=$row[id]'>Edit</a>
-                <a  style='color:#85586F;background-color:#F8EDE3; text-decoration:none;font-weight:bold;' class= 'btn btn-danger btn-sm' href='../php/delete_destinatii.php?id=$row[id]'>Delete</a>
+                <a  style='color:#85586F;background-color:#F8EDE3; text-decoration:none;font-weight:bold;' class= 'btn btn-danger btn-sm' href='../php/delete_destinati.php?id=$row[id]'>Delete</a>
                 </td>
            </tr>";
            }
